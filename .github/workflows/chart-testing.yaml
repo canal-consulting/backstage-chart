@@ -10,7 +10,7 @@ on:
 permissions: read-all
 
 env:
-  helm-version: "v3.9.2"
+  helm-version: "v3.10.0"
 
 jobs:
   lint-test:
