@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  backstage:
+  - apiVersion: v2
+    created: "2022-10-04T07:55:19.271658516Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.x.x
+    description: A Helm chart for Kubernetes
+    digest: 99a9b388758dac9fca8f05343d971f5991ff0e04ae8a3d3eaab42b247fa94d6e
+    name: backstage
+    type: application
+    urls:
+    - https://github.com/canal-consulting/backstage-chart/releases/download/backstage-0.1.0/backstage-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-10-04T07:55:19.271675717Z"
